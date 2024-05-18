@@ -2,7 +2,7 @@ package com.liliana.features.domain;
 
 public class Tapa {
 
-    private String nombre;
+    private static String nombre;
     private String establecimiento;
     private String totalpuntos;
     private String mediavotos;

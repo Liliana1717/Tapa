@@ -8,6 +8,8 @@ import java.util.ArrayList;
 public class MainTapa {
 
 
+    private static com.liliana.features.domain.Tapa Tapa;
+
     //mostrar el listado de tapas//
     public static void printTapas() {
         GetTapasUseCase tapasUseCase = new GetTapasUseCase(new TapaDataRepository());
